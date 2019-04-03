@@ -4,6 +4,7 @@ int main()
    int* pc, c;
       printf("commited by tarun\n", &c);
       printf("commited by arpit\n", &c);
+      printf("commited by sourath\n", &c);
 
    c = 22;
    printf("Address of c: %u\n", &c);
@@ -21,4 +22,8 @@ int main()
    printf("Address of c: %u\n", &c);
    printf("Value of c: %d\n\n", c);
    return 0;
+   
+   
+   pc++;//moved to next location, 
+   
 }
