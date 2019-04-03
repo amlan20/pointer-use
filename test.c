@@ -5,6 +5,7 @@ int main()
       printf("commited by tarun\n", &c);
       printf("commited by arpit\n", &c);
       printf("commited by sourath\n", &c);
+      printf("commited by jai mundra\n", &c);
 
    c = 22;
    printf("Address of c: %u\n", &c);
